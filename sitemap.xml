@@ -1,11 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>http://yoursite.com/blog/archives/</loc>
-        <lastmod>2013-08-12T15:06:08+02:00</lastmod>
+        <loc>http://mikekreeki.github.io/blog/2013/08/13/lorem-ipsum/</loc>
+        <lastmod>2013-08-14T13:38:57+02:00</lastmod>
     </url>
     <url>
-        <loc>http://yoursite.com/</loc>
-        <lastmod>2013-08-12T15:06:08+02:00</lastmod>
+        <loc>http://mikekreeki.github.io/blog/archives/</loc>
+        <lastmod>2013-08-14T13:38:57+02:00</lastmod>
+    </url>
+    <url>
+        <loc>http://mikekreeki.github.io/blog/</loc>
+        <lastmod>2013-08-14T13:38:57+02:00</lastmod>
+    </url>
+    <url>
+        <loc>http://mikekreeki.github.io/robots.txt</loc>
+        <lastmod>2013-08-12T15:33:36+02:00</lastmod>
     </url>
 </urlset>

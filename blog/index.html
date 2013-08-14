@@ -1,32 +1,70 @@
-<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
 
-	<title><![CDATA[Mikekreeki]]></title>
-	<link href="http://mikekreeki.github.io/atom.xml" rel="self"/>
-	<link href="http://mikekreeki.github.io/"/>
-	<updated>2013-08-14T13:38:57+02:00</updated>
-	<id>http://mikekreeki.github.io/</id>
-	<author>
-		<name><![CDATA[Michal Krejčí]]></name>
-		
-	</author>
-	<generator uri="http://octopress.org/">Octopress</generator>
+<!doctype html>
+<!-- START OF _layouts/default.html -->
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" >
+		<meta content="width=device-width,initial-scale=1" name="viewport">
+		<meta content="" name="description">
+		<meta content="Mikekreeki" name="author">
+
+		<title>Mikekreeki</title>
+
+		<!-- Styles -->
+		<link href="/stylesheets/main.css" rel="stylesheet">
+
+		<!-- Google webfonts -->
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Cousine">
+
+		<!-- jQuery and plugins -->
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<script src="/js/jquery.zclip.min.js"></script>
+
+		<!-- Syntax highlighter -->
+		<link href="/stylesheets/prettify-hemisu.css" type="text/css" rel="stylesheet" />
+
+		<!--<link href="http://feeds.feedburner.com/turkeltaub" rel="alternate" title="Mikekreeki" type="application/rss+xml" />-->
+
+	</head>
+	<body>
+    <div class="header-container">
+			<div class="wrap">
+
+				<header>
+					<img src='/images/logo.png'/>
+					<div class="title">Mikekreeki</div>
+					<div class="description">
+						The developer's notebook
+					</div>
+					<div class="navi">
+						<ul>
+							<li><a href="/blog">Blog</a></li>
+							<li><a href="/blog/archives">Archives</a></li>
+						<ul>
+					</div> <!-- // .navi -->
+				</header>
+			</div>
+		</div>
+
+		<div class="wrap">
+
+
+				<!-- START OF index.html -->
 
 	
-	<entry>
 		
-			<title type="html"><![CDATA[Alice in Wonderland]]></title>
-		
-		<link href="http://mikekreeki.github.io/blog/2013/08/13/lorem-ipsum/"/>
-		<updated>2013-08-13T18:21:00+02:00</updated>
-		<id>http://mikekreeki.github.io/blog/2013/08/13/lorem-ipsum</id>
-		<content type="html">
-			<![CDATA[
-				
-					<p></p>
-				
-			]]>
-			<![CDATA[<p>The judge, by the way, was the King; and as he wore his crown over the wig,
+		<!-- START OF _includes/article.html -->
+<article>
+
+	<header>
+		<h1><a href="/blog/2013/08/13/lorem-ipsum/">Alice in Wonderland</a></h1>
+		<time>13 August 2013</time>
+	</header>
+
+	<div class="content">
+		<p>The judge, by the way, was the King; and as he wore his crown over the wig,
 (look at the frontispiece if you want to see how he did it,) he did not look
 at all comfortable, and it was certainly not becoming.</p>
 
@@ -93,8 +131,47 @@ the parchment scroll, and read as follows:&mdash;</p>
 
 <p>&lsquo;The Queen of Hearts, she made some tarts, All on a summer day: The Knave of
 Hearts, he stole those tarts, And took them quite away!&rsquo;</p>
-]]>
-		</content>
-	</entry>
+
+	</div>
+
+</article>
+<!-- END OF _includes/article.html -->
+
 	
-</feed>
+	
+<div class="pagination">
+	
+	
+	<span class="total">1 of 1</span>
+	
+	
+</div>
+<!-- END OF index.html -->
+
+
+		</div>
+
+		<div class="footer-container">
+			<div class="wrap">
+
+				<footer>
+					Made with <img src="/images/footer-heart.png" class="footer-heart"> in Paris & Prague
+
+				</footer>
+
+			</div>
+		</div>
+	</body>
+	<script>
+		$(document).ready(function() {
+			// Make images center
+			$('p:has(img)').css('text-align', 'center');
+
+			// Add the image's title attribute as a caption
+			$('p:has(img)').append(function () {
+				return '<div class="caption">' + $('img', this).attr('title') + '</div>';
+			});
+		});
+	</script>
+</html>
+<!-- END OF _layouts/default.html -->
